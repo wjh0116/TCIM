@@ -25,7 +25,7 @@ make
 - `rumorNum`: Number of rumor seed nodes
 - `algo`: Algorithm name (SandTCIM, SandTCIM-WS, SandTCIM-PR, GB)
 - `epsilon`, `gamma`: Algorithm parameters
-- `A`: Time parameter
+- `A`: parameter in the weight function
 
 ### Example Commands
 
