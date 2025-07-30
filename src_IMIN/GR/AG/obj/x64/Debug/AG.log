@@ -1,0 +1,98 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“10.21.3.253”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  AG.cpp
+E:\rumor blocking\AG\sfmt\SFMT.h(250,14): warning : conversion to ‘double’ from ‘long double’ may alter its value [-Wfloat-conversion]
+E:\rumor blocking\AG\sfmt\SFMT.h(250,14): warning :      return v * (1.0/18446744073709551616.0L);
+E:\rumor blocking\AG\sfmt\SFMT.h(250,14): warning :             ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\rumor blocking\AG\MeasureM.h(12,17): warning : conversion to ‘double’ from ‘long int’ may alter its value [-Wconversion]
+E:\rumor blocking\AG\MeasureM.h(12,17): warning :   return r_usage.ru_maxrss / 1024.0 ;
+E:\rumor blocking\AG\MeasureM.h(12,17): warning :          ~~~~~~~~^~~~~~~~~
+E:\rumor blocking\AG\MeasureM.h(12,27): warning : conversion to ‘unsigned int’ from ‘double’ may alter its value [-Wfloat-conversion]
+E:\rumor blocking\AG\MeasureM.h(12,27): warning :   return r_usage.ru_maxrss / 1024.0 ;
+E:\rumor blocking\AG\MeasureM.h(12,27): warning :          ~~~~~~~~~~~~~~~~~~^~~~~~~~
+E:\rumor blocking\AG\memoryusage.h(51,27): warning : conversion to ‘double’ from ‘long unsigned int’ may alter its value [-Wconversion]
+E:\rumor blocking\AG\memoryusage.h(51,27): warning :     vm_usage     = vsize / 1024.0;
+E:\rumor blocking\AG\memoryusage.h(51,27): warning :                            ^~~~~~
+E:\rumor blocking\AG\memoryusage.h(52,23): warning : conversion to ‘double’ from ‘long int’ may alter its value [-Wconversion]
+E:\rumor blocking\AG\memoryusage.h(52,23): warning :     resident_set = rss * page_size_kb;
+E:\rumor blocking\AG\memoryusage.h(52,23): warning :                    ~~~~^~~~~~~~~~~~~~
+E:\rumor blocking\AG\infgraph.h(42,19): warning : conversion to ‘unsigned int’ from ‘time_t {aka long int}’ may alter its value [-Wconversion]
+E:\rumor blocking\AG\infgraph.h(42,19): warning :          srand(time(NULL));
+E:\rumor blocking\AG\infgraph.h(42,19): warning :                ~~~~^~~~~~
+E:\rumor blocking\AG\infgraph.h(64,21): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\rumor blocking\AG\infgraph.h(64,21): warning :    for (int i = 0; i < n; i++)
+E:\rumor blocking\AG\infgraph.h(64,21): warning :                    ~~^~~
+E:\rumor blocking\AG\infgraph.h(105,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\rumor blocking\AG\infgraph.h(105,23): warning :      for (int i = 0; i < gT[x].size(); i++)
+E:\rumor blocking\AG\infgraph.h(105,23): warning :                      ~~^~~~~~~~~~~~~~
+E:\rumor blocking\AG\infgraph.h(339,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\rumor blocking\AG\infgraph.h(339,22): warning :     for (int i = 0; i < gT[x].size(); i++)
+E:\rumor blocking\AG\infgraph.h(339,22): warning :                     ~~^~~~~~~~~~~~~~
+E:\rumor blocking\AG\infgraph.h(369,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\rumor blocking\AG\infgraph.h(369,22): warning :     for (int i = 0; i < n; i++)
+E:\rumor blocking\AG\infgraph.h(369,22): warning :                     ~~^~~
+E:\rumor blocking\AG\infgraph.h(374,21): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\rumor blocking\AG\infgraph.h(374,21): warning :    for (int i = 0; i < n; i++)
+E:\rumor blocking\AG\infgraph.h(374,21): warning :                    ~~^~~
+E:\rumor blocking\AG\infgraph.h(396,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\rumor blocking\AG\infgraph.h(396,22): warning :     for (int i = 0; i < n; i++)
+E:\rumor blocking\AG\infgraph.h(396,22): warning :                     ~~^~~
+E:\rumor blocking\AG\AG.h(64,34): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\rumor blocking\AG\AG.h(64,34): warning :    int rumor_num = g.rumorSet.size();//rumor�ڵ�ĸ���
+E:\rumor blocking\AG\AG.h(64,34): warning :                    ~~~~~~~~~~~~~~~^~
+E:\rumor blocking\AG\AG.h(69,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\rumor blocking\AG\AG.h(69,22): warning :     for (int i = 0; i < g.gT[node].size(); i++)
+E:\rumor blocking\AG\AG.h(69,22): warning :                     ~~^~~~~~~~~~~~~~~~~~~
+E:\rumor blocking\AG\AG.h(45,10): warning : unused variable ‘total_spread’ [-Wunused-variable]
+E:\rumor blocking\AG\AG.h(45,10): warning :    double total_spread = 0;
+E:\rumor blocking\AG\AG.h(45,10): warning :           ^~~~~~~~~~~~
+E:\rumor blocking\AG\AG.h(64,7): warning : unused variable ‘rumor_num’ [-Wunused-variable]
+E:\rumor blocking\AG\AG.h(64,7): warning :    int rumor_num = g.rumorSet.size();//rumor�ڵ�ĸ���
+E:\rumor blocking\AG\AG.h(64,7): warning :        ^~~~~~~~~
+E:\rumor blocking\AG\AG.h(82,7): warning : unused variable ‘seed_num’ [-Wunused-variable]
+E:\rumor blocking\AG\AG.h(82,7): warning :    int seed_num = 0;
+E:\rumor blocking\AG\AG.h(82,7): warning :        ^~~~~~~~
+E:\rumor blocking\AG\AG.h(83,10): warning : unused variable ‘st’ [-Wunused-variable]
+E:\rumor blocking\AG\AG.h(83,10): warning :    double st, et;
+E:\rumor blocking\AG\AG.h(83,10): warning :           ^~
+E:\rumor blocking\AG\AG.h(83,14): warning : unused variable ‘et’ [-Wunused-variable]
+E:\rumor blocking\AG\AG.h(83,14): warning :    double st, et;
+E:\rumor blocking\AG\AG.h(83,14): warning :               ^~
+  SFMT.c
+E:\rumor blocking\AG\sfmt\SFMT.h(250,14): warning : conversion to ‘double’ from ‘long double’ may alter its value [-Wfloat-conversion]
+E:\rumor blocking\AG\sfmt\SFMT.h(250,14): warning :      return v * (1.0/18446744073709551616.0L);
+E:\rumor blocking\AG\sfmt\SFMT.h(250,14): warning :             ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\rumor blocking\AG\sfmt\SFMT.c(171,8): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\rumor blocking\AG\sfmt\SFMT.c(171,8): warning :   inner ^= psfmt32[idxof(i)] & parity[i];
+E:\rumor blocking\AG\sfmt\SFMT.c(171,8): warning :         ^~
+E:\rumor blocking\AG\sfmt\SFMT.c(171,11): warning : conversion to ‘int’ from ‘uint32_t {aka unsigned int}’ may change the sign of the result [-Wsign-conversion]
+E:\rumor blocking\AG\sfmt\SFMT.c(171,11): warning :   inner ^= psfmt32[idxof(i)] & parity[i];
+E:\rumor blocking\AG\sfmt\SFMT.c(171,11): warning :            ^~~~~~~
+E:\rumor blocking\AG\sfmt\SFMT.c(348,6): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\rumor blocking\AG\sfmt\SFMT.c(348,6): warning :       + i;
+E:\rumor blocking\AG\sfmt\SFMT.c(348,6): warning :       ^
+E:\rumor blocking\AG\sfmt\SFMT.c(346,22): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘long unsigned int’ may alter its value [-Wconversion]
+E:\rumor blocking\AG\sfmt\SFMT.c(346,22): warning :   psfmt32[idxof(i)] = 1812433253UL * (psfmt32[idxof(i - 1)]
+E:\rumor blocking\AG\sfmt\SFMT.c(346,22): warning :                       ^~~~~~~~~~~~
+E:\rumor blocking\AG\sfmt\SFMT.c(389,7): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\rumor blocking\AG\sfmt\SFMT.c(389,7): warning :      r += key_length;
+E:\rumor blocking\AG\sfmt\SFMT.c(389,7): warning :        ^~
+E:\rumor blocking\AG\sfmt\SFMT.c(398,19): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\rumor blocking\AG\sfmt\SFMT.c(398,19): warning :   r += init_key[j] + i;
+E:\rumor blocking\AG\sfmt\SFMT.c(398,19): warning :                    ^
+E:\rumor blocking\AG\sfmt\SFMT.c(407,4): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\rumor blocking\AG\sfmt\SFMT.c(407,4): warning :   r += i;
+E:\rumor blocking\AG\sfmt\SFMT.c(407,4): warning :     ^~
+E:\rumor blocking\AG\sfmt\SFMT.c(416,4): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\rumor blocking\AG\sfmt\SFMT.c(416,4): warning :   r -= i;
+E:\rumor blocking\AG\sfmt\SFMT.c(416,4): warning :     ^~
+E:\rumor blocking\AG\sfmt\SFMT.c(44,21): warning : ‘sse2_param_mask’ defined but not used [-Wunused-const-variable=]
+E:\rumor blocking\AG\sfmt\SFMT.c(44,21): warning :  static const w128_t sse2_param_mask = {{SFMT_MSK1, SFMT_MSK2,
+E:\rumor blocking\AG\sfmt\SFMT.c(44,21): warning :                      ^~~~~~~~~~~~~~~
+  正在链接对象
+  AG.vcxproj -> E:\rumor blocking\AG\AG\bin\x64\Debug\AG.out

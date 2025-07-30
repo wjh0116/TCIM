@@ -1,0 +1,1 @@
+g++ -o "/home/wangjinghao/AG/bin/x64/Debug/AG.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/wangjinghao/AG/obj/x64/Debug/AG.o /home/wangjinghao/AG/obj/x64/Debug/SFMT.o
